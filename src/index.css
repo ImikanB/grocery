@@ -11,3 +11,76 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(77, 65, 65);
+}
+.container {
+  width: 90vw;
+  max-width: 30rem;
+  margin: 8rem auto 0;
+  padding: 2rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.3);
+  background: #fff;
+}
+.control {
+  display: grid;
+  grid-template-columns: 1fr 100px;
+}
+h4 {
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 1.5rem;
+}
+.input {
+  border: 1px solid #e2e8f0;
+  width: 100%;
+  padding: 0.38rem 0.75rem;
+}
+.btn {
+  text-transform: capitalize;
+  border: transparent;
+  background: #06b6d4;
+  color: #fff;
+  letter-spacing: 1px;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.cart {
+  margin-top: 2rem;
+}
+.list {
+  display: flex;
+  text-transform: capitalize;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.item-cont {
+  display: flex;
+}
+h5 {
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  margin-left: 1rem;
+}
+.button {
+  border: transparent;
+  background: #000;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 0.75rem;
+  padding: 0.15rem 0.25rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
